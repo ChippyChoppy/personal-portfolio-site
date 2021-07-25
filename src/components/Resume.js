@@ -8,6 +8,7 @@ const Resume = () => {
         <div>
             <Document 
                 file={resume}>
+                <Page pageNumber={1} />
             </Document>
         </div>
     )
