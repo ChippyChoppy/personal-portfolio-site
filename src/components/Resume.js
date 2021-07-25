@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../RobbinsRebeccaResume.pdf'
+import resume from '../FrontendResume.pdf'
 import SinglePage from './pdf/SinglePage'
 
 const Resume = () => {

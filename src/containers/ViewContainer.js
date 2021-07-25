@@ -5,7 +5,6 @@ import Resume from '../components/Resume'
 
 class ViewContainer extends React.Component {
 
-
     render() {
         return (
             <div>

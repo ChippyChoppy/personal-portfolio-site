@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 import { Document, Page } from 'react-pdf';
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+
 
 const SinglePage = (props) => {
     const [numPages, setNumPages] = useState(null);
@@ -28,7 +30,7 @@ const SinglePage = (props) => {
         <>
             <Document
                 file={ pdf }
-                options={{ workerSrc: "/pdf.worker.js" }}
+                options={{ workerSrc: ".../public/pdf.worker.js" }}
                 onLoadSuccess={onDocumentLoadSuccess}
             >
                 <Page pageNumber={pageNumber} />
