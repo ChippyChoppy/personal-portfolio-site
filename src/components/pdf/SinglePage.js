@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Document, Page } from 'react-pdf';
 
 const SinglePage = (props) => {
@@ -28,7 +28,7 @@ const SinglePage = (props) => {
         <>
             <Document
                 file={pdf}
-                options{{ workderSrc: "/pdf.worker.js" }}
+                options={{ workerSrc: "/pdf.worker.js" }}
                 onLoadSuccess={onDocumentLoadSuccess}
             >
                 <Page pageNumber={pageNumber} />
