@@ -1,6 +1,7 @@
 import React from 'react'
 import OnTheWeb from '../components/OnTheWeb'
 import ProjectDemos from '../components/ProjectDemos'
+import Resume from '../components/Resume'
 
 class ViewContainer extends React.Component {
 
@@ -13,6 +14,7 @@ class ViewContainer extends React.Component {
                 <p>Here are some of my projects</p>
                 <ProjectDemos />
                 <OnTheWeb />
+                <Resume />
             </div>
         )
     }
