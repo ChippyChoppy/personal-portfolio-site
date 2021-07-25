@@ -2,18 +2,17 @@ import React from 'react'
 import OnTheWeb from '../components/OnTheWeb'
 import ProjectDemos from '../components/ProjectDemos'
 import Resume from '../components/Resume'
+import AboutMe from '../components/AboutMe'
 
 class ViewContainer extends React.Component {
 
     render() {
         return (
             <div>
-                <p>Hi, I'm Rebecca</p>
-                <p>Here's a little bit about me!</p>
-                <p>Here are some of my projects</p>
+                <AboutMe />
+                <Resume />
                 <ProjectDemos />
                 <OnTheWeb />
-                <Resume />
             </div>
         )
     }
