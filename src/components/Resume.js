@@ -1,12 +1,13 @@
 import React from 'react';
-import resume from '../FrontendResume.pdf'
+import MyResume from '../FrontendResume.pdf'
 import SinglePage from './pdf/SinglePage'
+import AllPages from './pdf/AllPages'
 
 const Resume = () => {
 
     return (
         <>
-           <SinglePage resume={resume} />
+           <SinglePage pdf={MyResume} />
         </>
     )
 

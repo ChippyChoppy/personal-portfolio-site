@@ -24,3 +24,5 @@ const AllPages = (props) => {
         </Document>
     )
 }
+
+export default AllPages
