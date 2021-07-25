@@ -1,16 +1,13 @@
 import React from 'react';
-import { Document, Page } from 'react-pdf';
 import resume from '../RobbinsRebeccaResume.pdf'
+import SinglePage from './pdf/SinglePage'
 
 const Resume = () => {
 
     return (
-        <div>
-            <Document 
-                file={resume}>
-                <Page pageNumber={1} />
-            </Document>
-        </div>
+        <>
+           <SinglePage resume={resume} />
+        </>
     )
 
 }

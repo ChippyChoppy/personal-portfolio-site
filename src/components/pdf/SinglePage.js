@@ -27,7 +27,7 @@ const SinglePage = (props) => {
     return (
         <>
             <Document
-                file={pdf}
+                file={ pdf }
                 options={{ workerSrc: "/pdf.worker.js" }}
                 onLoadSuccess={onDocumentLoadSuccess}
             >
